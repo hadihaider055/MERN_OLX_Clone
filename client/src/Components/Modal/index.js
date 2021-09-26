@@ -85,7 +85,7 @@ const ModalComp = (props) => {
           {currentStep === 0 ? (
             <>
               <GoogleLogin
-                clientId="458870546269-uemlqvlvssl5e9ggeoc9mge520esf6uo.apps.googleusercontent.com"
+                clientId={process.env.GOOGLE_API_KEY}
                 render={(renderProps) => (
                   <div className="modal__medium" onClick={renderProps.onClick}>
                     <img
@@ -101,7 +101,7 @@ const ModalComp = (props) => {
                 cookiePolicy="single_host_origin"
               />
               <FacebookLogin
-                appId="194488442785682"
+                appId={process.env.FACEBOOK_APP_ID}
                 render={(renderProps) => (
                   <div className="modal__medium" onClick={renderProps.onClick}>
                     <FacebookRounded className="fb__icon" />
