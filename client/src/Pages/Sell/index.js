@@ -55,17 +55,16 @@ const SellPage = () => {
       phoneNumber: "",
       featured: "",
     });
-      setError("Ad created successfully!");
-      toast.success("Ad created successfully!", {
-        position: "top-right",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: false,
-        pauseOnHover: false,
-        draggable: false,
-        progress: undefined,
-      });
-    } 
+    setError("Ad created successfully!");
+    toast.success("Ad created successfully!", {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: false,
+      draggable: false,
+      progress: undefined,
+    });
   };
   return (
     <Layout>

@@ -13,6 +13,7 @@ import {
 } from "../../State/Actions/Auth";
 import { ArrowBackOutlined } from "@mui/icons-material";
 import { useDispatch, useSelector } from "react-redux";
+require("dotenv").config();
 
 const ModalComp = (props) => {
   const dispatch = useDispatch();
@@ -85,7 +86,7 @@ const ModalComp = (props) => {
           {currentStep === 0 ? (
             <>
               <GoogleLogin
-                clientId={process.env.GOOGLE_API_KEY}
+                clientId={process.env.REACT_APP_GOOGLE_API_KEY}
                 render={(renderProps) => (
                   <div className="modal__medium" onClick={renderProps.onClick}>
                     <img
@@ -101,7 +102,7 @@ const ModalComp = (props) => {
                 cookiePolicy="single_host_origin"
               />
               <FacebookLogin
-                appId={process.env.FACEBOOK_APP_ID}
+                appId={process.env.REACT_APP_FACEBOOK_APP_ID}
                 render={(renderProps) => (
                   <div className="modal__medium" onClick={renderProps.onClick}>
                     <FacebookRounded className="fb__icon" />
