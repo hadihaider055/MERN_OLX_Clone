@@ -102,7 +102,7 @@ const ModalComp = (props) => {
                 cookiePolicy="single_host_origin"
               />
               <FacebookLogin
-                appId={process.env.REACT_APP_FACEBOOK_APP_ID}
+                appId={process.env.FACEBOOK_APP_ID}
                 render={(renderProps) => (
                   <div className="modal__medium" onClick={renderProps.onClick}>
                     <FacebookRounded className="fb__icon" />

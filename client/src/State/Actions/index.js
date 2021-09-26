@@ -37,7 +37,6 @@ export const createProduct = (res) => async (dispatch) => {
       type: "CREATE_PRODUCT",
       payload: product,
     });
-    console.log(product);
   } catch (error) {
     console.log(error.response.data.message);
   }
