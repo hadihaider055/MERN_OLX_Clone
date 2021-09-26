@@ -2,11 +2,11 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "heroku-postbuild": "cd../client && npm install && npm run build"
+    "heroku-postbuild": "client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
