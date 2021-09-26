@@ -86,7 +86,7 @@ const ModalComp = (props) => {
           {currentStep === 0 ? (
             <>
               <GoogleLogin
-                clientId={process.env.REACT_APP_GOOGLE_API_KEY}
+                clientId={process.env.GOOGLE_API_KEY}
                 render={(renderProps) => (
                   <div className="modal__medium" onClick={renderProps.onClick}>
                     <img
