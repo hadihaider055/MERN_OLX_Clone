@@ -1,0 +1,141 @@
+.description__pageRight {
+  margin: 0 auto;
+  margin: -8px 30px 0 0;
+  flex: 0.4;
+  max-width: 100vw;
+}
+.price__section {
+  border: 1px solid #a4a4a4;
+  margin-top: 20px;
+  border-radius: 6px;
+  text-align: left;
+  padding: 10px 20px 0 20px;
+  max-width: 65vw !important;
+}
+.price__sectionDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price__sectionTitle {
+  margin: 0.1em 0 0 0;
+  font-size: 2.2em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #002f34;
+}
+.Mui__Icon {
+  cursor: pointer !important;
+  padding: 5px !important;
+  font-size: 2.1em !important;
+  border-radius: 50%;
+  margin: 0.2em 0 0 0;
+}
+.Mui__Icon:hover {
+  background-color: #c8f8f7d4 !important;
+}
+.price__sectionDiv__title {
+  color: #939393;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+}
+.price__sectionDiv__Footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price__sectionDiv__address,
+.price__sectionDiv__time {
+  font-family: "Georama", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  color: #757575af;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+.seller__description {
+  border: 1px solid #a4a4a4;
+  margin-top: 20px;
+  border-radius: 6px;
+  text-align: left;
+  padding: 10px 20px 0 20px;
+  max-width: 65vw !important;
+}
+.seller__descriptionHeading {
+  margin: 0.1em 0 0 0;
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #002f34;
+}
+.seller__description__content {
+  cursor: pointer;
+}
+.seller__description__content img {
+  width: 70px;
+  margin: 10px 0;
+}
+.seller__description__content h6 {
+  margin: 0.1em 0 0 0;
+  font-size: 1.2em;
+  font-family: "Georama", sans-serif;
+  font-weight: 600;
+  color: #002f34;
+  margin: 20px 0 0 10px;
+}
+.seller__description__content p {
+  margin: 0 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.96em;
+}
+.seller__description button {
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  background-color: #002f34;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  border-radius: 2px;
+  font-weight: 500;
+}
+.seller__description__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 10px 0;
+}
+.phoneIcon {
+  font-size: 1.7em;
+  margin: 0.5em 0;
+}
+.seller__description__footer p {
+  margin: -0.05em 1em;
+  font-size: 0.9em;
+  font-family: "Georama", sans-serif;
+  font-weight: 700;
+  color: #3a7bff;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+@media (max-width: 842px) {
+  .description__pageRight {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 430px) {
+  .price__sectionTitle {
+    font-size: 1.1em;
+  }
+  .price__section {
+    max-width: 100vw !important;
+  }
+}
+
+@media (max-width: 860px) {
+  .price__section {
+    width: 65vw !important;
+  }
+}

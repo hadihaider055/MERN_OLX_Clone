@@ -1,0 +1,110 @@
+.description__pageLeft {
+  margin: 0 auto;
+  flex: 0.8;
+  margin: 10px;
+  text-align: center;
+  margin-left: 50px;
+}
+.description__pageImage {
+  border: 1px solid #a4a4a4;
+  background-color: #000;
+  max-width: 65vw;
+  height: 75vh;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.description__pageImage img {
+  height: 100%;
+  width: 86%;
+}
+.details__div {
+  border: 1px solid #a4a4a4;
+  margin-top: 20px;
+  max-width: 65vw;
+  border-radius: 6px;
+  text-align: left;
+  padding: 0 20px;
+}
+.details__divHeading {
+  padding: 10px 0 0 0;
+  font-weight: 700;
+  font-family: "Georama", sans-serif;
+  color: #002f34;
+  font-size: 1.2em;
+}
+.details__data p,
+.details__descData p {
+  color: #464646ce;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 1.4em;
+  font-size: 0.95em;
+}
+.description__feature {
+  position: absolute;
+  top: 30%;
+  background-color: #ffce32;
+  width: 100px;
+  height: 25px;
+  left: 3.8%;
+  padding: 4px;
+}
+.description__feature p {
+  color: #002f34;
+  font-family: "Georama", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 1200px) {
+  .description__pageImage {
+    max-height: 50vh;
+  }
+}
+@media (max-width: 1060px) {
+  .description__pageImage {
+    max-height: 60vh;
+  }
+  .description__feature {
+    top: 35%;
+    left: 5%;
+  }
+}
+@media (min-width: 768px) and (max-width: 860px) {
+  .description__pageImage {
+    height: 80vh !important;
+    width: 100vw !important;
+  }
+  .description__feature {
+    top: 35%;
+    left: 6%;
+  }
+}
+@media (max-width: 400px) {
+  .description__pageImage {
+    max-width: 100vw;
+    max-height: 50vh;
+    flex: 1;
+    margin-left: 0;
+    margin: 0 auto;
+  }
+  .description__pageImage img {
+    height: 70%;
+    width: 100%;
+  }
+  .description__feature {
+    top: 27%;
+    width: 50px;
+    height: 15px;
+    left: 14%;
+    padding: 2px;
+  }
+  .description__feature p {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.59a0d7bb.chunk.css",
+    "main.js": "/static/js/main.3f497c6e.chunk.js",
+    "main.js.map": "/static/js/main.3f497c6e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.acb99a48.js",
+    "runtime-main.js.map": "/static/js/runtime-main.acb99a48.js.map",
+    "static/css/2.dfa6656c.chunk.css": "/static/css/2.dfa6656c.chunk.css",
+    "static/js/2.68108bbf.chunk.js": "/static/js/2.68108bbf.chunk.js",
+    "static/js/2.68108bbf.chunk.js.map": "/static/js/2.68108bbf.chunk.js.map",
+    "static/js/3.a966a2b4.chunk.js": "/static/js/3.a966a2b4.chunk.js",
+    "static/js/3.a966a2b4.chunk.js.map": "/static/js/3.a966a2b4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.dfa6656c.chunk.css.map": "/static/css/2.dfa6656c.chunk.css.map",
+    "static/css/main.59a0d7bb.chunk.css.map": "/static/css/main.59a0d7bb.chunk.css.map",
+    "static/js/2.68108bbf.chunk.js.LICENSE.txt": "/static/js/2.68108bbf.chunk.js.LICENSE.txt",
+    "static/media/ErrorImage.38a2ceeb.jpg": "/static/media/ErrorImage.38a2ceeb.jpg",
+    "static/media/appstore.64652a9b.svg": "/static/media/appstore.64652a9b.svg",
+    "static/media/appstore.e0602391.png": "/static/media/appstore.e0602391.png",
+    "static/media/dummy.06d7fc91.png": "/static/media/dummy.06d7fc91.png",
+    "static/media/olx-banner.fc81df15.png": "/static/media/olx-banner.fc81df15.png",
+    "static/media/olx-logo.71f8e54e.svg": "/static/media/olx-logo.71f8e54e.svg",
+    "static/media/olx-mobile.5f0ae822.png": "/static/media/olx-mobile.5f0ae822.png",
+    "static/media/playstore.b5647fa4.svg": "/static/media/playstore.b5647fa4.svg",
+    "static/media/playstore.f5af879a.png": "/static/media/playstore.f5af879a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.acb99a48.js",
+    "static/css/2.dfa6656c.chunk.css",
+    "static/js/2.68108bbf.chunk.js",
+    "static/css/main.59a0d7bb.chunk.css",
+    "static/js/main.3f497c6e.chunk.js"
+  ]
+}

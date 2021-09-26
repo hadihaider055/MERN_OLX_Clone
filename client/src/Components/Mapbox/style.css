@@ -1,0 +1,32 @@
+.map__main {
+  border: 1px solid #a4a4a4;
+  margin-top: 20px;
+  border-radius: 6px;
+  text-align: left;
+  padding: 10px 20px 0 20px;
+  max-width: 65vw !important;
+  height: 275px;
+}
+.google__map {
+  width: 350px !important;
+  height: 170px !important;
+  position: relative !important;
+}
+.map__heading {
+  margin: 0.1em 0 0 0;
+  font-size: 1.3em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #002f34;
+}
+.map__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map__address {
+  margin: 1em 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  color: #747474;
+}

@@ -1,0 +1,15 @@
+body {
+  overflow-x: hidden;
+  color: #002b36;
+}
+.error__image {
+  margin: 0 auto;
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}

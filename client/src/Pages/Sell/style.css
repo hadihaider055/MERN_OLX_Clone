@@ -1,0 +1,147 @@
+.sell__main {
+  margin: 0 auto !important;
+  border: 1px solid #a4a4a4;
+  border-radius: 6px;
+  width: 95vw;
+  margin-top: 30px;
+}
+.sell__header h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Georama", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+.sell__header,
+.sell__form__category,
+.sell__form__details,
+.sell__form__price,
+.sell__form__image,
+.sell__form__location,
+.sell__form__review,
+.sell__form__submit {
+  border-bottom: 1px solid #a4a4a4;
+  padding: 15px;
+}
+
+.sell__form__category h3,
+.sell__form__details h3,
+.sell__form__price h3,
+.sell__form__image h3,
+.sell__form__location h3,
+.sell__form__review h3,
+.sell__ad__phoneNumber h3,
+.sell__form__feature h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Georama", sans-serif;
+  text-transform: uppercase;
+}
+.sell__form__category select {
+  max-width: 100% !important;
+  max-height: 30px !important;
+  font-family: "Georama", sans-serif;
+}
+.sell__ad__title label,
+.sell__ad__description label,
+.sell__ad__price label,
+.sell__form__location label,
+.sell__form__info label,
+.sell__ad__phoneNumber label {
+  display: block;
+  font-family: "Georama", sans-serif;
+}
+.sell__ad__title input,
+.sell__ad__price input,
+.sell__form__location input,
+.name__input input,
+.sell__ad__phoneNumber input {
+  width: 100%;
+  height: 45px;
+  border-radius: 3px;
+  border: 1px solid #a4a4a4;
+}
+.sell__ad__title p,
+.sell__ad__description p,
+.sell__form__location p,
+.sell__form__review p {
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.sell__ad__description textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  border-radius: 3px;
+  border: 1px solid #a4a4a4;
+}
+.filebase {
+  width: 250px;
+  border-radius: 3px;
+  height: 32px;
+  margin: 10px;
+  cursor: pointer;
+}
+.sell__form__review img {
+  margin: 0 auto;
+  text-align: center;
+  width: 90px;
+  margin: 10px 20px;
+}
+.sell__form__info label {
+  font-family: "Georama", sans-serif;
+  display: block;
+}
+.sell__form__info {
+  display: flex;
+  width: 100vw;
+}
+.name__input {
+  width: 83% !important;
+  margin-top: 10px;
+}
+.sell__form__feature {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.form__radio label {
+  font-family: "Georama", sans-serif;
+  margin: 10px;
+}
+.sell__form__submit button {
+  background-color: #002f34;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 200px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  outline: none;
+}
+input,
+textarea {
+  padding-left: 10px;
+  font-family: "Georama", sans-serif;
+  font-size: 0.9em;
+}
+@media (min-width: 500px) and (max-width: 900px) {
+  .name__input {
+    width: 60% !important;
+  }
+}
+@media (max-width: 500px) {
+  .name__input {
+    width: 87% !important;
+    margin-bottom: 20px;
+  }
+  .sell__form__info {
+    display: block;
+    width: 100vw;
+  }
+}

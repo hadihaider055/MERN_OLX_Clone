@@ -1,0 +1,70 @@
+.ad__main {
+  margin: 0 auto;
+  width: 100vw;
+  margin-top: 100px;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #002f3453;
+  padding: 0 20px;
+}
+.container__img {
+  width: 35%;
+  margin-left: -10%;
+}
+.olx__mobile {
+  width: 100%;
+}
+.ad__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ad_container__content {
+  width: 35%;
+}
+.ad_container__content h3 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.1em;
+  font-weight: 600;
+  color: #002f34;
+}
+.ad_container__content p {
+  font-size: 1.2em;
+  font-weight: 400;
+  font-family: "Georama", sans-serif;
+  color: #002f34;
+}
+.ad__container hr {
+  width: 10%;
+  transform: rotate(90deg);
+  color: #002f34;
+  height: 2px;
+}
+.download__link p {
+  font-family: "Georama", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #002f34;
+  letter-spacing: 0.5px;
+}
+.download__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.download__buttons img {
+  flex-wrap: wrap;
+  width: 120px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .ad_container__content {
+    display: none;
+  }
+}
