@@ -93,6 +93,7 @@
   margin-top: 50px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .sidebar__user__imageDiv img {
   margin-right: 10px;
