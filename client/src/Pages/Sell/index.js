@@ -55,7 +55,6 @@ const SellPage = () => {
       phoneNumber: "",
       featured: "",
     });
-    if (productStatus === 201) {
       setError("Ad created successfully!");
       toast.success("Ad created successfully!", {
         position: "top-right",
@@ -66,18 +65,7 @@ const SellPage = () => {
         draggable: false,
         progress: undefined,
       });
-    } else {
-      setError("Something went wrong. Try again Later!");
-      toast.error("Something went wrong. Try again Later!", {
-        position: "top-right",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: false,
-        pauseOnHover: false,
-        draggable: false,
-        progress: undefined,
-      });
-    }
+    } 
   };
   return (
     <Layout>
