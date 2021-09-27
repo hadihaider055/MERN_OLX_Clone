@@ -7,6 +7,7 @@ import ScrollToTop from "./Components/Scroll to top";
 import SellPage from "./Pages/Sell";
 import SearchPage from "./Pages/searchPage";
 import PageNotFound from "./Pages/PageNotFound";
+import PrivacyPolicy from "./Pages/Privacy Policy";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/product/detail/:id" component={DescriptionPage} />
         <Route exact path="/sell/create" component={SellPage} />
         <Route exact path="/products/search/:keyword" component={SearchPage} />
+        <Route exact path="/privacy-policy" component={PrivacyPolicy} />
         <Route path="*" component={PageNotFound} />
       </Switch>
     </Router>
